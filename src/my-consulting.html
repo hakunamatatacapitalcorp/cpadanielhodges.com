@@ -11,7 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="shared-styles.html">
 
-<dom-module id="my-view3">
+<dom-module id="my-consulting">
   <template>
     <style include="shared-styles">
       :host {
@@ -22,18 +22,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
 
     <div class="card">
-      <div class="circle">3</div>
-      <h1>View Three</h1>
-      <p>Modus commodo minimum eum te, vero utinam assueverit per eu.</p>
-      <p>Ea duis bonorum nec, falli paulo aliquid ei eum.Has at minim mucius aliquam, est id tempor laoreet.Pro saepe pertinax ei, ad pri animal labores suscipiantur.</p>
+      <h1>Daniel Hodges consulting</h1>
+      <p>I work with other CPA’s both here in Indiana and around the country to train them in delivering this type of proactive service to their clientele. I’ve been told I’m not a typical CPA and that may be due to my ability to relate to people and communicate better. The education of a CPA is actually as a historian so the proactive visualizing and planning service level is not comfortable or normal for typical accountants. I also have an advanced training course to help smart businessmen to do the same thing for themselves without spending all that money on professional services.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/dan-hodges-fort-wayne-cpa.jpg">
     </div>
   </template>
 
   <script>
-    class MyView3 extends Polymer.Element {
-      static get is() { return 'my-view3'; }
+    class MyConsulting extends Polymer.Element {
+      static get is() { return 'my-consulting'; }
     }
 
-    window.customElements.define(MyView3.is, MyView3);
+    window.customElements.define(MyConsulting.is, MyConsulting);
   </script>
 </dom-module>
