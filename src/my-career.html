@@ -11,7 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="shared-styles.html">
 
-<dom-module id="my-view2">
+<dom-module id="my-career">
   <template>
     <style include="shared-styles">
       :host {
@@ -19,21 +19,43 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         padding: 10px;
       }
+      .warrior-logo {
+        width: 150px;
+        height: 149px;
+      }
     </style>
 
     <div class="card">
-      <div class="circle">2</div>
-      <h1>View Two</h1>
-      <p>Ea duis bonorum nec, falli paulo aliquid ei eum.</p>
-      <p>Id nam odio natum malorum, tibique copiosae expetenda mel ea.Detracto suavitate repudiandae no eum. Id adhuc minim soluta nam.Id nam odio natum malorum, tibique copiosae expetenda mel ea.</p>
+      <h2>Career Summary</h2>
+      <p>Experienced executive with expert skills in financial management of cash flow, billing, accounting, and the planning thereof for organizations 5 to 50 million.</p>
     </div>
+    
+    <div class="card">
+      <h2>Education, Designations, and Memberships</h2>
+      <ul>
+        <li>Bachelor of Science in Accounting, Valparaiso University</li>
+        <li>Certified Public Accountant</li>
+        <li>Member Indiana CPA Society</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Professional Experience</h2>
+      <h3>2005 to present</h3>
+      <p>Founder and Managing Director of Warrior Business Services <a href="https://warrior.accountants">Warrior Business Services</a> (formerly known as Compass CPA Group) overseeing firm planning and management for offices in Indiana’s two largest markets. Family business CFO and compliance expert. Leveraged these skills as an accounting office cleanup specialist for non-profit organizations of varying sizes that need reporting or leadership enhancement.</p>
+      <img src="images/warrior-business-services-logo.png" class="warrior-logo">
+      <h3>1997 to 2004</h3>
+      <p>Completed seven years with a Fortune 100 national accounting practice. Responsibilities included completion of audit work, review work, and consulting engagements as Manager for all Fort Wayne attest clients and certain Indiana, Illinois, and Michigan clientele with focus on midsize and small enterprise.</p>
+      <h3>1996 to 1997</h3>
+      <p>Worked about one year with a local CPA firm.</p>
+    </div>    
   </template>
 
   <script>
-    class MyView2 extends Polymer.Element {
-      static get is() { return 'my-view2'; }
+    class MyCareer extends Polymer.Element {
+      static get is() { return 'my-career'; }
     }
 
-    window.customElements.define(MyView2.is, MyView2);
+    window.customElements.define(MyCareer.is, MyCareer);
   </script>
 </dom-module>
