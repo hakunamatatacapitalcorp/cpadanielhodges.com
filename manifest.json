@@ -1,7 +1,7 @@
 {
-  "name": "My App",
-  "short_name": "My App",
-  "description": "My App description",
+  "name": "CPA Dan Hodges",
+  "short_name": "CPA Dan",
+  "description": "CPA Dan Hodges is a Certified Public Accountant with decades of experience serving the greater Fort Wayne, Indiana region.  Dan's team at https://warrior.accountants will fight to keep your hard earn profits. ",
   "icons": [
     {
       "src": "images/manifest/icon-192x192.png",
