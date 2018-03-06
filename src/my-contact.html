@@ -11,7 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="shared-styles.html">
 
-<dom-module id="my-view3">
+<dom-module id="my-contact">
   <template>
     <style include="shared-styles">
       :host {
@@ -22,18 +22,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
 
     <div class="card">
-      <div class="circle">3</div>
-      <h1>View Three</h1>
-      <p>Modus commodo minimum eum te, vero utinam assueverit per eu.</p>
-      <p>Ea duis bonorum nec, falli paulo aliquid ei eum.Has at minim mucius aliquam, est id tempor laoreet.Pro saepe pertinax ei, ad pri animal labores suscipiantur.</p>
+      <h1>Contact</h1>
+      <p>
+260.749.2200</p>
+<p>501 E Brackenridge St. Fort Wayne Indiana 46802 United States</p>
+
+Connect
+<a href="https://www.facebook.com/daniel.hodges.14">Facebook</a> | <a href="https://www.linkedin.com/in/compasscpa">LinkedIn</a>
+    </div>
+    <div class="card">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6015.595718437406!2d-85.131365!3d41.073411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8815e4ebe8a88ac9%3A0xbd88d878b9df76dd!2s501+E+Brackenridge+St%2C+Fort+Wayne%2C+IN+46802!5e0!3m2!1sen!2sus!4v1520290145179" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </template>
 
   <script>
-    class MyView3 extends Polymer.Element {
-      static get is() { return 'my-view3'; }
+    class MyContact extends Polymer.Element {
+      static get is() { return 'my-contact'; }
     }
 
-    window.customElements.define(MyView3.is, MyView3);
+    window.customElements.define(MyContact.is, MyContact);
   </script>
 </dom-module>
